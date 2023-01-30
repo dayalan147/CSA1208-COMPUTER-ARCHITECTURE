@@ -1,0 +1,7 @@
+8 bit subtraction
+LDA 2000
+MOV B,A
+LDA 2001
+SUB B
+STA 2002
+HLT
