@@ -1,0 +1,7 @@
+;< COMPLEMENT >
+lda 0000
+cma
+sta 0001
+inr a
+sta 0002
+hlt
