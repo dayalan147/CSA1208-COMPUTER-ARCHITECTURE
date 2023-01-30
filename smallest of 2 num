@@ -1,0 +1,8 @@
+lda 1000
+mov b,a
+lda 1001
+cmp b
+jc loop
+mov a,b
+loop: sta 1002
+hlt
