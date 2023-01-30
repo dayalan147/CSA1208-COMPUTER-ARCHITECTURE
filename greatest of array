@@ -1,0 +1,15 @@
+lxi h,1000
+mov c,m
+inx h
+mov b,m
+dcr c
+loop: inx h
+mov a,m
+cmp b
+jc skip
+mov b,a
+skip: dcr c
+jnz loop 
+lxi h, 1007
+mov m,b
+hlt
